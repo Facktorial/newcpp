@@ -45,6 +45,7 @@ cp -r $SCRIPT_DIR/docs .
 cp -r $SCRIPT_DIR/tests .
 cp -r $SCRIPT_DIR/Logger $project_name
 
+cp $SCRIPT_DIR/main.cpp $project_name
 cp $SCRIPT_DIR/LICENSE .
 cp $SCRIPT_DIR/build.bat .
 cp $SCRIPT_DIR/CMakePresets.json .

@@ -9,8 +9,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 IF (CMAKE_CXX MATCHES "Clang")
 	# using Clang
-	execute_process(COMMAND which clang-11 OUTPUT_VARIABLE Clang_C_COMPILER)
-	execute_process(COMMAND which clang++-11 OUTPUT_VARIABLE Clang_CXX_COMPILER)
+	execute_process(COMMAND which clang-14 OUTPUT_VARIABLE Clang_C_COMPILER)
+	execute_process(COMMAND which clang++-14 OUTPUT_VARIABLE Clang_CXX_COMPILER)
 	message(Clang_C_COMPILER: ${Clang_C_COMPILER})
 	message(Clang_CXX_COMPILER: ${Clang_CXX_COMPILER})
 	string(STRIP ${Clang_C_COMPILER} Clang_C_COMPILER)
